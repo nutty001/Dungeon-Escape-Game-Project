@@ -14,11 +14,11 @@ public class EnemyController : MonoBehaviour
             PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
             if(instantdefeat)
             {
-               player.playerDefeated();
+               
             }
             else
             {
-                player.playerHit(damage);
+
             }
         }
     }
